@@ -104,11 +104,12 @@ SSH into the control node and follow the steps below:
 - Copy the file to playbook file to ansible.
 - Configure the host file. Include elk and web servers.
 - Run the playbook, and navigate to kibana to check that the installation has worked.
-- ![SSHdockerdepth7](https://user-images.githubusercontent.com/84904417/124761362-0dc34200-df75-11eb-934c-cf48e24e7edc.PNG)
+ ![SSHdockerdepth7](https://user-images.githubusercontent.com/84904417/124761362-0dc34200-df75-11eb-934c-cf48e24e7edc.PNG)
 - Accessing Elk via container example - 
-- ![Elk connecting via container](https://user-images.githubusercontent.com/84904417/124760165-ce482600-df73-11eb-8a9f-5dd796be7654.PNG)
+ ![Elk connecting via container](https://user-images.githubusercontent.com/84904417/124760165-ce482600-df73-11eb-8a9f-5dd796be7654.PNG)
 - Attaching to container example -
-- [SSHdocker8](https://user-images.githubusercontent.com/84904417/124762036-cab59e80-df75-11eb-8419-56242c9a389d.PNG)
+ ![SSHdocker8](https://user-images.githubusercontent.com/84904417/124762258-0e100d00-df76-11eb-99c4-500fe5a05a11.PNG)
+
 
 The playbook is in yml format and can be created using nano or other program of choice. Navigate to the Kibana webpage (http://20.36.45.148:5601/app/kibana#/home) to figure out if the elk is running. It will only connect to the Kibana webpage if the installation/configuration has been successful.   
 
