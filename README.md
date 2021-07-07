@@ -24,7 +24,8 @@ The following files configure the Elk Virtual Machine.
 
 **Filebeat Configuration**
  
- ![Filebeat P](https://user-images.githubusercontent.com/84904417/124748751-d483d580-df66-11eb-90ac-42c43c3f9cc5.jpg)
+ ![FilebeatP](https://user-images.githubusercontent.com/84904417/124749675-e154f900-df67-11eb-9d91-42340596e035.jpg)
+
 
        
 ### Description of the Topology
