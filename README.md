@@ -22,14 +22,17 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 The following files configure the Elk Virtual Machine.
 
-[Elk Playbook.docx](https://github.com/anyagall/Elk-Project/files/6776216/Elk.Playbook.docx)
+Elk Playbook
 
-        
-  Filebeat Configuration
+![Elk P1](https://user-images.githubusercontent.com/84904417/124748638-b5854380-df66-11eb-97a8-24c05c65255d.jpg)
+![Elk P2](https://user-images.githubusercontent.com/84904417/124748684-c1710580-df66-11eb-8fc3-8d9c66d4c784.jpg)
+
+Filebeat Configuration
  
-  [Filebeat.docx](https://github.com/anyagall/Elk-Project/files/6776224/Filebeat.docx)
+ ![Filebeat P](https://user-images.githubusercontent.com/84904417/124748751-d483d580-df66-11eb-90ac-42c43c3f9cc5.jpg)
+
        
- ### Description of the Topology
+### Description of the Topology
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the Damn Vulnerable Web Application.
 
