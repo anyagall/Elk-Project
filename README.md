@@ -4,30 +4,25 @@ Collection of work for Project 1, Cybersecurity Boot Camp
 ## Automated ELK Stack Deployment
 
 
-CONTENTS
+## CONTENTS
+# Network Diagram
+# Configuration Files
+# Topology
+# Access Policies
+# Elk Configuration
 
-Network Diagram
-=
-Configuration Files
-=
-Topology
-=
-Access Policies
-=
-Elk Configuration
-=
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Elk Playbook file may be used to install only certain pieces of it, such as Filebeat. The files in this repository were used to configure the network depicted below.
 
 ![Elk ](https://user-images.githubusercontent.com/84904417/124741000-a26e7580-df5e-11eb-944c-be8af6eca031.png)
 
 The following files configure the Elk Virtual Machine.
 
-Elk Playbook
+**Elk Playbook**
 
 ![Elk P1](https://user-images.githubusercontent.com/84904417/124748638-b5854380-df66-11eb-97a8-24c05c65255d.jpg)
 ![Elk P2](https://user-images.githubusercontent.com/84904417/124748684-c1710580-df66-11eb-8fc3-8d9c66d4c784.jpg)
 
-Filebeat Configuration
+**Filebeat Configuration**
  
  ![Filebeat P](https://user-images.githubusercontent.com/84904417/124748751-d483d580-df66-11eb-90ac-42c43c3f9cc5.jpg)
 
