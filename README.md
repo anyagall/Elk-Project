@@ -122,7 +122,7 @@ SSH into the control node and follow the steps below:
 
 
 
-The playbook is in yml format and can be created using nano or other program of choice. Navigate to the Kibana webpage (http://20.36.45.148:5601/app/kibana#/home) to figure out if the elk is running. It will only connect to the Kibana webpage if the installation/configuration has been successful. An unssuccessful configuration is often down to incorrect host file altering so start there if ossues occur.
+The playbook is in yml format and can be created using nano or other program of choice. Navigate to the Kibana webpage (http://20.36.45.148:5601/app/kibana#/home) to figure out if the elk is running. It will only connect to the Kibana webpage if the installation/configuration has been successful. An unssuccessful configuration is often down to incorrect host file altering so start there if issues occur.
 
 **ELK DEPLOYED**
 
