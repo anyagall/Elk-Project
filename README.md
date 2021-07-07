@@ -106,9 +106,9 @@ SSH into the control node and follow the steps below:
  
  **Accessing host file via container ex**
  
-[SSHdockerhost](https://user-images.githubusercontent.com/84904417/124763832-bbcfeb80-df77-11eb-93ba-326b434ae3ec.PNG)
+ ![SSHdockerhost](https://user-images.githubusercontent.com/84904417/124764852-be7f1080-df78-11eb-9ae6-a2e9563fcfc1.PNG)
 
- Run the playbook, and navigate to kibana to check that the installation has worked.
+Run the playbook, and navigate to kibana to check that the installation has worked.
  
  ![SSHdockerdepth7](https://user-images.githubusercontent.com/84904417/124761362-0dc34200-df75-11eb-934c-cf48e24e7edc.PNG)
  
