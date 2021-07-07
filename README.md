@@ -9,98 +9,15 @@ https://user-images.githubusercontent.com/84904417/124732407-8535a900-df56-11eb-
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Elk Playbook file may be used to install only certain pieces of it, such as Filebeat.
 
 The following files configure the Elk Virtual Machine.
-  ---
-- name: Configure Elk VM with Docker
-  hosts: elk
-  become: true
-  tasks:
-    - name: Install docker.io
-      apt:
-        update_cache: yes
-        force_apt_get: yes
-        name: docker.io
-        state: present
 
-    - name: Install python3-pip
-      apt:
-        force_apt_get: yes
-        name: python3-pip
-        state: present
+[Elk Playbook.docx](https://github.com/anyagall/Elk-Project/files/6776216/Elk.Playbook.docx)
 
-    - name: Install Docker module
-      pip:
-        name: docker
-        state: present
-    - name: Increase virtual memory
-      command: sysctl -w vm.max_map_count=262144
-
-    - name: Use more memory
-      sysctl:
-        name: vm.max_map_count
-        value: 262144
-        state: present
-        reload: yes
-
-    - name: download and launch a docker elk container
-      docker_container:
-        name: elk
-        image: sebp/elk:761
-        state: started
-        restart_policy: always
-        published_ports:
-         -  5601:5601
-         -  9200:9200
-         -  5044:5044
-
-    - name: Enable docker service
-      systemd:
-      name: docker
-      enabled: yes
         
   Filebeat Configuration
-        
-        ---
-- name: installing and launching filebeat
-  hosts: webservers
-  become: yes
-  tasks:
-
- -name: download filebeat deb
-  command: curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.4.0-amd64.deb
-
-  -name: install filebeat deb
-   command: dpkg -i filebeat-7.4.0-amd64.deb
-
-  - name: drop in filebeat.yml
-    copy:
-    src: /etc/ansible/filebeat-config.yml
-    dest: /etc/filebeat/filebeat.yml
-
-  - name: enable and configure system module
-    command: filebeat modules enable system
-
-  - name: setup filebeat
-    command: filebeat setup
-
-  - name: start filebeat service
-    command: service filebeat start
-
-  - name: enable service filebeat on boot
-    systemd:
-    name: filebeat
-    enabled: yes
-
-
-This document contains the following details:
-- Description of the Topology
-- Access Policies
-- ELK Configuration
- - Beats in Use
- - Machines Being Monitored
- - How to Use the Ansible Build
-
-
-### Description of the Topology
+ 
+  [Filebeat.docx](https://github.com/anyagall/Elk-Project/files/6776224/Filebeat.docx)
+       
+ ### Description of the Topology
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the Damn Vulnerable Web Application.
 
