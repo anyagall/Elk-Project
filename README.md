@@ -101,17 +101,17 @@ Filebeat collects details on log events.
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
- **Copy the file to playbook file to ansible.
- **Configure the host file. Include elk and web servers.
- **Run the playbook, and navigate to kibana to check that the installation has worked.
+ Copy the file to playbook file to ansible.
+ Configure the host file. Include elk and web servers.
+ Run the playbook, and navigate to kibana to check that the installation has worked.
  
  ![SSHdockerdepth7](https://user-images.githubusercontent.com/84904417/124761362-0dc34200-df75-11eb-934c-cf48e24e7edc.PNG)
  
- **Accessing Elk via container example 
+ **Accessing Elk via container example** 
  
  ![Elk connecting via container](https://user-images.githubusercontent.com/84904417/124760165-ce482600-df73-11eb-8a9f-5dd796be7654.PNG)
  
- **Attaching to container example 
+ **Attaching to container example** 
  
  ![SSHdocker8](https://user-images.githubusercontent.com/84904417/124762258-0e100d00-df76-11eb-99c4-500fe5a05a11.PNG)
 
