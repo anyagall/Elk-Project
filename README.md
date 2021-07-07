@@ -105,7 +105,7 @@ SSH into the control node and follow the steps below:
 - Configure the host file. Include elk and web servers.
 - Run the playbook, and navigate to kibana to check that the installation has worked.
 
-The playbook is a yml file which can be created in the same way as any other file. Navigate to the Kibana webpage (http://20.36.45.148:5601/app/kibana#/home) to figure out if the elk is running. It will only connect to the Kibana webpage if the installation/configuration has been successful. 
+The playbook is in yml format and can be created using nano or other program of choice. Navigate to the Kibana webpage (http://20.36.45.148:5601/app/kibana#/home) to figure out if the elk is running. It will only connect to the Kibana webpage if the installation/configuration has been successful.   
 
 
 
