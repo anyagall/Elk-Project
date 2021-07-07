@@ -3,9 +3,9 @@ Collection of work for Project 1, Cybersecurity Boot Camp
 
 ## Automated ELK Stack Deployment
 
-=
+
 CONTENTS
-=
+
 Network Diagram
 =
 Configuration Files
