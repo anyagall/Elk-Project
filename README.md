@@ -4,7 +4,7 @@ Collection of work for Project 1, Cybersecurity Boot Camp
 
 The files in this repository were used to configure the network depicted below.
 
-https://user-images.githubusercontent.com/84904417/124732407-8535a900-df56-11eb-8dff-22e16f4751f6.png
+![Elk ](https://user-images.githubusercontent.com/84904417/124741000-a26e7580-df5e-11eb-944c-be8af6eca031.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Elk Playbook file may be used to install only certain pieces of it, such as Filebeat.
 
